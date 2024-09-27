@@ -1,0 +1,71 @@
+body {
+
+	font-family: sans-serif;
+	background-color: beige;
+}
+#container{
+	max-width: 450px;
+	height: auto;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 1px 2px 4px 2px rgba(1, 1, 1, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+#logoArea{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("../images/bg.jpg") center center ;
+    padding: 60px 20px;
+    color: #fff;
+}
+#logoArea img{
+	width: 100px;
+	height: 100px;
+}
+#inputFieldArea{
+	width: 85%;
+	margin: 20px auto;
+}
+.groupField{
+	margin: 15px auto;
+}
+
+
+.groupField input,
+.groupField select{
+	width: 100%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+
+}
+.groupField input:focus,
+.groupField select:focus{
+	border-color: darkgoldenrod;
+	outline: none;
+}
+#container #buttonArea{
+	text-align: center;
+}
+#buttonArea{
+	width: 250px;
+	margin: auto;
+}
+#buttonArea button{
+	background-color: darkgoldenrod;
+	border: none;
+	padding: 12px 25px;
+	color: #fff;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 15px;
+	margin: 5px;
+	transition: background-color 0.3s;
+}
+#buttonArea button:hover {
+    background-color: forestgreen;
+}
