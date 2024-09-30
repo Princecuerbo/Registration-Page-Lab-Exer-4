@@ -17,7 +17,7 @@ body {
 	display: flex;
     flex-direction: column;
     align-items: center;
-    background: url("bg.jpg") center center ;
+    background: url("..bg.jpg") center center ;
     padding: 60px 20px;
     color: #fff;
 }
